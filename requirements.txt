@@ -1,0 +1,10 @@
+altgraph
+importlib-metadata
+macholib
+numpy
+psutil
+PyQt5
+PyQt5-sip
+pyqtgraph
+typing-extensions
+zipp
