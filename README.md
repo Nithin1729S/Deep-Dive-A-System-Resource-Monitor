@@ -1,6 +1,6 @@
 # Resource Monitor
 
-A system monitor utility written in Python and Qt
+A System monitoring tool leveraging Python and Qt interface for comprehensive real-time tracking and analysis of system resources
 
 ## Getting Started
 
