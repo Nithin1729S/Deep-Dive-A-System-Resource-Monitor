@@ -1,4 +1,4 @@
-# Resource Monitor
+# System Resource Monitor
 
 A System resource monitoring tool leveraging Python and Qt GUI interface for comprehensive real-time tracking and analysis of system resources
 
