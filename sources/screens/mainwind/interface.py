@@ -3151,19 +3151,6 @@ class Ui_mainwind(object):
         self.cntbhead.setAlignment(QtCore.Qt.AlignCenter)
         self.cntbhead.setObjectName("cntbhead")
 
-        # self.cntbhead1 = QtWidgets.QLabel(self.cntbfrme)
-        # self.cntbhead1.setGeometry(QtCore.QRect(5, 125, 925, 15))
-        # sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
-        # sizePolicy.setHorizontalStretch(0)
-        # sizePolicy.setVerticalStretch(0)
-        # sizePolicy.setHeightForWidth(self.cntbhead.sizePolicy().hasHeightForWidth())
-        # self.cntbhead1.setSizePolicy(sizePolicy)
-        # self.cntbhead1.setMinimumSize(QtCore.QSize(925, 15))
-        # self.cntbhead1.setMaximumSize(QtCore.QSize(925, 15))
-        # self.cntbhead1.setStyleSheet('font: 600 10pt "Inter"; border: none;')
-        # self.cntbhead1.setAlignment(QtCore.Qt.AlignCenter)
-        # self.cntbhead1.setObjectName("cntbhead1")
-
 
         self.cntbvers = QtWidgets.QLabel(self.cntbfrme)
         self.cntbvers.setGeometry(QtCore.QRect(5, 125, 925, 15))
