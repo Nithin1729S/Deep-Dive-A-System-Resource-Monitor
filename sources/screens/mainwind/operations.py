@@ -421,9 +421,9 @@ class MainWind(QMainWindow, Ui_mainwind):
         self.initialize_performance_tabscreen()
         self.initialize_connections_tabscreen()
         self.initialize_partitions_tabscreen()
-        logging.warning("Deep Dive is ready")
+        logging.warning("Ready to Deep Dive")
         self.statusBar.showMessage(
-            "Deep Dive is ready"
+            "Ready to Deep Dive"
         )
         
     def refresh_elements(self, statdict):
