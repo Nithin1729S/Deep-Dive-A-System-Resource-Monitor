@@ -20,7 +20,7 @@ def return_software_information():
     return retndata
 
 
-def return_obserware_information():
+def return_deepdive_information():
     retndata = {
         "pythvers": pythvers,
         "pyqtvers": pyqtvers(),

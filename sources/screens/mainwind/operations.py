@@ -399,7 +399,7 @@ class MainWind(QMainWindow, Ui_mainwind):
 
     def initialize_information_tabscreen(self):
         softdict = tab_information.return_software_information()
-        obsrdict = tab_information.return_obserware_information()
+        obsrdict = tab_information.return_deepdive_information()
         self.softname.setText(str(softdict["name"]))
         self.softvers.setText(str(softdict["version"]))
         self.softhost.setText(str(softdict["hostname"]))
