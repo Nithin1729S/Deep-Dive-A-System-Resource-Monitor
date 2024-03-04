@@ -8,7 +8,6 @@ from distro import __version__ as distvers
 from psutil import __version__ as psutvers
 from PyQt5.QtCore import qVersion as pyqtvers
 
-__version__=2
 def return_software_information():
     retndata = {
         "name": distro.name(),
