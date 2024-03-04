@@ -3777,7 +3777,6 @@ class Ui_mainwind(object):
 
         # Load the image using QPixmap 
         image = QPixmap(image_path)
-        #image = QPixmap("/home/nithin/Codes/Projects/obserware/sources/screens/mainwind/icon.png")
 
         # Resize the image to match the dimensions of self.cntbicon
         image = image.scaled(55, 55)
