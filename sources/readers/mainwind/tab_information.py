@@ -30,6 +30,3 @@ def return_obserware_information():
     }
     return retndata
 
-
-def is_distributed_via_flatpak():
-    return distro.name() == "KDE Flatpak runtime"

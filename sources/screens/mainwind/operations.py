@@ -412,18 +412,6 @@ class MainWind(QMainWindow, Ui_mainwind):
         self.obsrcpui.setText(str(obsrdict["cpuivers"]))
         self.obsrdist.setText(str(obsrdict["distvers"]))
 
-    def check_flatpak_distribution(self):
-        if tab_information.is_distributed_via_flatpak():
-            logging.warning("Deep Dive installed successfully")
-            logging.warning("Some features would be limited or unavailable")
-            flatmgbx = QMessageBox()
-            flatmgbx.setIcon(QMessageBox.Warning)
-            flatmgbx.setText("Deep Dive installed successfully")
-            flatmgbx.setInformativeText(
-                "Some features would be limited or unavailable in this version of the application. It is greatly recommended to install the application from the RPM package to ensure better integration with the system. \n\nPlease click on OK to continue."  # noqa
-            )
-            flatmgbx.setWindowTitle("Deep Dive")
-            flatmgbx.exec()
 
     def initialize_elements(self):
         self.initialize_bottombar_statistics()
@@ -437,7 +425,7 @@ class MainWind(QMainWindow, Ui_mainwind):
         self.statusBar.showMessage(
             "Deep Dive is ready"
         )
-        self.check_flatpak_distribution()
+        
 
     def refresh_elements(self, statdict):
         self.refresh_bottombar_statistics(statdict)
