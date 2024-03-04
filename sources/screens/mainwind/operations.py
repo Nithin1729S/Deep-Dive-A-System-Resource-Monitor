@@ -426,7 +426,6 @@ class MainWind(QMainWindow, Ui_mainwind):
             "Deep Dive is ready"
         )
         
-
     def refresh_elements(self, statdict):
         self.refresh_bottombar_statistics(statdict)
         self.refresh_resources_tabscreen(statdict)
