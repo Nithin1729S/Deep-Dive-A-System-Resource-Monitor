@@ -92,7 +92,7 @@
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="rsrctabp">
      <property name="sizePolicy">
@@ -956,7 +956,7 @@
       <widget class="QLabel" name="cpudcsnm">
        <property name="geometry">
         <rect>
-         <x>5</x>
+         <x>10</x>
          <y>20</y>
          <width>195</width>
          <height>20</height>
