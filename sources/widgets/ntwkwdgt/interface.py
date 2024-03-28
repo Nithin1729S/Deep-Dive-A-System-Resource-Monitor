@@ -265,8 +265,8 @@ class Ui_ntwkwdgt(object):
         self.ntwkdvce.setText(_translate("ntwkwdgt", "DEVICE"))
         self.ntwkstet.setText(_translate("ntwkwdgt", "toggle-on"))
         self.ntwkbrrt.setText(_translate("ntwkwdgt", "000.00B/s (0Pk/s)"))
-        self.ntwkbrrl.setText(_translate("ntwkwdgt", "Receiving rate"))
-        self.ntwkbtrl.setText(_translate("ntwkwdgt", "Transmitting rate"))
+        self.ntwkbrrl.setText(_translate("ntwkwdgt", "Rate of Receiving"))
+        self.ntwkbtrl.setText(_translate("ntwkwdgt", "Rate of Transmitting"))
         self.ntwkbtrt.setText(_translate("ntwkwdgt", "000.00B/s (0 Pk/s)"))
         self.ntwkbprx.setText(
             _translate(

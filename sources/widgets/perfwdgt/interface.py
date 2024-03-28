@@ -432,7 +432,7 @@ class Ui_perfwdgt(object):
         )
         self.cputnumb.setText(_translate("perfwdgt", "0"))
         self.cputlabl.setText(_translate("perfwdgt", "#CPU"))
-        self.cputxtra.setText(_translate("perfwdgt", "Time spent in"))
+        self.cputxtra.setText(_translate("perfwdgt", "Total Time spent in (since boot)"))
         self.cyclperc.setText(_translate("perfwdgt", "000"))
         self.cyclcurt.setText(_translate("perfwdgt", "000.00XHz"))
         self.ntwkstet.setText(_translate("perfwdgt", "microchip"))
