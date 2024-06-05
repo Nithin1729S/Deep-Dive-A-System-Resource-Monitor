@@ -2,6 +2,13 @@
 
 A System resource monitoring tool leveraging Python and Qt GUI interface for comprehensive real-time tracking and analysis of system resources
 
+## Demo of the Project 
+
+
+
+https://github.com/Nithin1729S/Deep-Dive-A-System-Resource-Monitor/assets/78496667/81d02633-7ec8-46b3-8412-9b46bdde2411
+
+
 ## Getting Started
 
 To get started with this project, follow these steps:
