@@ -2,7 +2,8 @@
 
 A System resource monitoring tool leveraging Python libraries like Psutil, os, PyCPUInfo, Disto and Qt GUI interface for comprehensive real-time tracking and analysis of system resources
 
-More details can be found in the ![report](https://drive.google.com/file/d/1GqvxKrw88ipwJb8nq0WJaX_sKlFkD2sM/view?usp=sharing)
+More details can be found in the [report](https://drive.google.com/file/d/1GqvxKrw88ipwJb8nq0WJaX_sKlFkD2sM/view?usp=sharing).
+
 ## Demo of the Project 
 
 
